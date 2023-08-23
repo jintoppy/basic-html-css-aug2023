@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+
+        a:hover {
+            color: red;
+        }
+
+        a:focus {
+            color: yellow;
+        }
+
+        input:focus {
+            border: 10px solid green;
+            outline: none;
+        }
+
+        input:invalid {
+            border: 3px solid red;
+        }
+
+        .box.another {
+            color: green;
+        }
+
+        .another {
+            color: blue;
+        }
+
+        #box1 p:last-of-type {
+            font-size: 1.5rem;
+        }
+
+        /* #box2 a:last-of-type {
+            color: yellow;
+        } */
+
+        p + span {
+            font-size: 2rem;
+        }
+
+        [href$=".com"] {
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        #box1::before {
+            content: 'this is from css';
+            display: block;
+            background-color: green;
+            width: 200px;
+            color: white;
+        }
+
+        #box1::after {
+            content: 'this is from css. after';
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="box1" class="box another">
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <span>Hello</span>        
+    </div>
+    <div id="box2">
+        <a href="https://google.com">Google</a>
+        <a href="google.com">Google1</a>
+        <a href="https://yahoo.com">Yahoo</a>
+        <p>Paragraph 3</p>
+        <span>Hello</span>   
+        <input type="text" required id="myinput">
+    </div>
+</body>
+</html>
