@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 1px solid #888;
+}
+
+footer {
+    padding: 10px;
+    border-top: 1px solid #888;
+}
