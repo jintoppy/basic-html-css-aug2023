@@ -1,0 +1,19 @@
+#header > .heading {
+    color: blue;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 5px;
+    border: 2px solid green;
+    margin: 10px; 
+    width: 200px;
+}
+
+#content {
+    display: inline-block;
+}
+
+#container > div {
+    display: inline-block;
+}
