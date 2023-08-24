@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes myanimation {
+        0% {
+          transform: translate(100px, 0);
+          background-color: green;
+        }
+
+        50% {
+          transform: translate(100px, 100px);
+          background-color: red;
+        }
+
+        75% {
+          transform: translate(50px, 100px);
+          background-color: yellow;
+        }
+
+        100% {
+          transform: translate(0, 0);
+          background-color: brown;
+        }
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      .box:hover {
+        animation: myanimation 5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

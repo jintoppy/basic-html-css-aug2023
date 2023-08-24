@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        border: 1px solid black;
+        padding: 10px;
+        transition: all 2s;
+        /* transition-property: color;
+        transition-timing-function: ease-in-out;
+        transition-duration: 2s;
+        transition-delay: 0s; */
+        /* transition: color 2s; */
+      }
+
+      .box:hover {
+        background-color: aqua;
+        width: 150px;
+        height: 150px;
+        transform: translate(200px, 200px);
+      }
+
+      img {
+        filter: brightness(0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Hi</div>
+
+    <img src="dog.jpg" alt="dog" />
+  </body>
+</html>
